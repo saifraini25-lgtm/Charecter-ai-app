@@ -7872,7 +7872,7 @@ By using this 10-part system, you aren't just asking for a character; you are co
 # --- AI SETUP ---
 genai.configure(api_key=st.secrets["MY_KEY"])
 model = genai.GenerativeModel("gemini-1.5-pro")
-response = model.generate_content(prompt)
+response = model.generate_content
 st.title("🧟 Dual-Logic Character Master")
 mode = st.sidebar.radio("Select Style:", ("Normal", "Horror"))
 desc = st.text_area("Character Idea likhein:")
