@@ -7870,7 +7870,7 @@ By using this 10-part system, you aren't just asking for a character; you are co
 ​Professional Tier: The output will look like a "Normal Character Example" or a "Deep Horror Asset" suitable for high-end gaming or animation.] """
 
 # --- AI SETUP ---
-genai.configure(api_key=st.secrets["AIzaSyCC12HFQ0YVFuQz-6uqDDLC8X4EIbyZUGA"])
+genai.configure(api_key=st.secrets["MY_KEY"])
 model = genai.GenerativeModel('gemini-1.5-pro')
 
 st.title("🧟 Dual-Logic Character Master")
